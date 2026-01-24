@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+
+.gridContainer{
+    background-color: rgb(210, 251, 251);
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px
+}
+
+.gridItem{
+    background-color: rgb(66, 236, 236);
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 30px;
+    padding: 40px;
+}
+
+.gridItem:hover{
+    background-color: rgb(39, 140, 140);
+    transition: ease-in-out 0.2s;
+}
+
+@media (max-width: 900px){
+    .gridContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 500px){
+    .gridContainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

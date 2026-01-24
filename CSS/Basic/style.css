@@ -1,0 +1,30 @@
+h1{
+    background-color: yellow;
+}
+
+p{
+    background-color: green;
+    font-size: 60px;
+    color: white;
+}
+
+.TopDiv{
+    background-color: red;
+    padding: 5px
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive;
+}
+
+span{
+    background-color: aqua;
+    display: block;
+}
+
+#SecondDiv{
+    background-color: blue;
+    display: inline;
+}
