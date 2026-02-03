@@ -1,4 +1,4 @@
-const apiUrl = "https://crudcrud.com/api/cd42a2ea9d7e47a08f7bd7a9992506bf/todos"
+const apiUrl = "https://crudcrud.com/api/35861e9944b943edbdaa2abc5e2dc2a4/todos"
 const input = document.getElementById('todo-input');
 const addBtn = document.getElementById('add-btn');
 const list = document.getElementById('todo-list');
