@@ -1,0 +1,55 @@
+body{
+    background-color: #c1c1c1;
+    font-family: fantasy;
+    text-align: center;
+    padding: 50px;
+}
+
+.counterDiv{
+    text-align: center;
+    padding-top:100px ;
+    color: #222222;
+}
+
+h1{
+    font-size: 5rem;
+    margin-bottom: 20px;
+    color :black
+}
+
+
+.btn{
+    font-size: 2rem;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #3e3e3e;
+    color: white;
+}
+
+p{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: #5e5e5e;
+}
+
+.rst-btn{
+    background-color: #bababa;
+    color: black;
+    font-size: 2rem;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.rst-btn:hover{
+    background-color: #d4d4d4;
+}
