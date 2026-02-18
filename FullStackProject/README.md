@@ -15,13 +15,24 @@ Here is the text for your `README.md` file.
 ## 🛠️ Tech Stack
 
 **Frontend:**
-
+```
+npm create vite@latest frontend -- --template react
+cd frontend
+npm install axios react-router-dom react-icons
+npm run dev
+```
 * React (Vite)
 * React Router DOM
 * Context API (State Management)
 * CSS3 (Custom Styling)
 
 **Backend:**
+
+```
+npm init -y
+npm install express mongoose dotenv cors
+npm install -D nodemon
+```
 
 * Node.js
 * Express.js
