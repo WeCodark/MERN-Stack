@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+.gridContainer {
+    background-color: bisque;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px
+}
+
+.gridItem {
+    background-color: green;
+    margin: 15px;
+    padding: 40px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 8px;
+    border: 2px solid black;
+}

@@ -1,0 +1,30 @@
+h1 {
+    background-color: yellow;
+    display: inline;
+}
+
+p {
+    background-color: green;
+    font-size: 60px;
+    color: white
+}
+
+.TopDiv {
+    background-color: red;
+    padding: 20px
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span {
+    background-color: aqua;
+    display: block;
+}
+
+#B {
+    border: 1px solid black;
+}
