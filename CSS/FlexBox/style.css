@@ -1,0 +1,16 @@
+.flexContainer{
+    background-color: beige;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;    /*  It will align item horizaontly */
+    flex-direction: row;
+    align-items: center; /*In vertically we use align items*/
+}
+
+.flexItem{
+    background-color: rgb(150, 150, 133);
+    margin: 10px;
+    padding: 0px;
+    border-radius:8px ;
+    font-size: 24px;
+}

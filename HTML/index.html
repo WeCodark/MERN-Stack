@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<head>
+    <title>My First HTML Page</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>Welcome to My WebPage</h1>
+    <h2>Intro of HTML</h2>
+    <p>HyperText Markup Language (HTML) is the standard markup language used to create and structure content on the web.
+        It provides the "skeleton" of a webpage by using a system of tags and elements that tell a web browser how to
+        display text, images, links, and other multimedia.</p>
+    <h3>Key Components:</h3>
+    <p>Heading and Paragraphs are some tags that we can use in html</p>
+    <h2>Navigation and link</h2>
+    <p>Visit the Google Homepage:
+        <a href="https://www.google.com/" target="_blank">Go to Google</a>
+    </p>
+
+    <p>Let's Visit about page(Non-exisiting Page)
+        <a href="about.html">About us Page</a>
+    </p>
+
+    <h2>Image Addition</h2>
+    <img src="https://cdn.lazyshop.com/files/9b0d8bde-34c0-460a-b131-e7a87b1e0543/product/756ffcfa644e5bc10fcb64278698ed65.jpeg?x-oss-process=style%2Fthumb" alt="Profile Pic">
+    <p>Unordered List</p>
+    <ul style="list-style-type: square;">
+        <li>Apple</li>
+        <li>Cherry</li>
+        <li>Mango</li>
+    </ul>
+
+    <p>Ordered List</p>
+    <ol type="1" start="2" reversed>
+        <li>Breakfast</li>
+        <li>Lunch</li>
+        <li>Dinner</li>
+    </ol>
+
+    <table style="border: 1px solid red;">
+        <tr>
+            <th style="border: 1px solid black;">Product Name</th>
+            <th>Price</th>
+            <th>Stock</th>
+        </tr>
+        <tr>
+            <td>laptop</td>
+            <td>Rs. 80000</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Iphone</td>
+            <td>Rs. 70000</td>
+            <td>40</td>
+        </tr>
+    </table>
+
+    <hr>
+    <h2>Forms</h2>
+    <h3>A. Get Request Form (Data in URL Will be visible)</h3>
+
+    <form method="get" action="https://httpbin.io/get">
+        <label for="search">Search Term:</label>
+        <input type="text" placeholder="Enter your keyword" id = "search" name = 'q1'>
+
+        <button type="submit"> Submit Response</button>
+    </form>
+
+    <h3>B. Implementing POST Method</h3>
+    <form action="https://httpbin.io/post" method="post">
+        <label for="username">Username: </label>
+        <input type="text" id="username" name="user_name" required>
+        <br><br>
+        <label for="password">Password: </label>
+        <input type="password" id = "password" name="user_password" required>
+        <br><br>
+        <label for="comment">Comment: </label>
+        <textarea name="user_comment" id="comment" rows="4" cols="50"></textarea>
+        <br><br>
+
+        <label for="role">Select Role: </label>
+        <select name="user_role" id="role">
+            <option value="developer">Developer</option>
+            <option value="designer">Designer</option>
+            <option value="Manager">Manager</option>
+        </select>
+        <br><br>
+
+        <label for="Gender">Gender: </label>
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="Male" value="Male">
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female" value="Female">
+        <button type="submit">Submit Response</button>
+
+
+
+    </form>
+
+
+</body>
+
+</html>
